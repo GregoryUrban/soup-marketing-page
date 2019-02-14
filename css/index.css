@@ -1,7 +1,33 @@
+.nav {
+  background-color: black;
+  justify-content: flex-end;
+  width: 80%;
+}
+a {
+  color: white;
+  justify-content: flex-end;
+}
+.nav-tabs .nav-link.active {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: black;
+}
+.btn-primary {
+  color: white;
+  background-color: mediumpurple;
+  border-color: mediumpurple ;
+}
 .jumbotron h1 {
   color: mediumpurple;
   font-size-adjust: 80%;
-  border: 1px red;
+  width: 30%;
 }
 @media (max-width: 500px) {
   .jumbotron h1 {
