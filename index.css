@@ -1,0 +1,10 @@
+* {
+ box-sizing: border-box;   
+}
+.nav-item {
+    color: mediumpurple;
+}
+
+h1.display-3 {
+    color: mediumpurple;
+}
