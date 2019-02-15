@@ -1,27 +1,47 @@
 header {
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-justify-content: flex-end;
-background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: black;
 }
-    .btn-primary {
-        color: white;
-        background-color: mediumpurple;
-        background-color: mediumpurple;
-        border-color: mediumpurple ;
+
+.btn-primary {
+    color: white;
+    background-color: mediumpurple;
+    background-color: mediumpurple;
+    border-color: mediumpurple;
+}
+
+.jumbotron {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+
+    .content {
+        width: 50%;
     }
 
-.jumbotron h1 {
-    color: mediumpurple;
-    font-size-adjust: 80%;
-    // background-color: red;
-    width: 30%;
+    h1 {
+        color: mediumpurple;
+        font-size-adjust: 80%;
+        width: 30%;
 
-    @media @phone {
-
-        // color: peachpuff;    
-        font-size: 1.5rem;
+        @media @phone {
+            font-size: 1.5rem;
+        }
     }
 
+    p.lead {
+    width: 100%;    
+    }
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
 }

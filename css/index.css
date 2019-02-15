@@ -12,6 +12,19 @@ a {
   color: white;
   border-color: black;
 }
+.main-nav {
+  background-color: white;
+  color: white;
+  border-color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.main-nav a {
+  width: 100%;
+  color: black;
+  text-transform: capitalize;
+}
 header {
   display: flex;
   flex-wrap: wrap;
@@ -22,7 +35,18 @@ header {
 .btn-primary {
   color: white;
   background-color: mediumpurple;
-  border-color: mediumpurple ;
+  border-color: mediumpurple;
+}
+.jumbotron {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.jumbotron .content {
+  width: 50%;
 }
 .jumbotron h1 {
   color: mediumpurple;
@@ -33,4 +57,12 @@ header {
   .jumbotron h1 {
     font-size: 1.5rem;
   }
+}
+.jumbotron p.lead {
+  width: 100%;
+}
+img {
+  width: 50%;
+  height: 50%;
+  border-radius: 20px;
 }
