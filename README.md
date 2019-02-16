@@ -52,10 +52,10 @@ Use [this rubric](https://docs.google.com/spreadsheets/d/1BbdmSMUdzURMo0wcsr4XS
 
 - **All Team members -** All Projects deployed to Netlify or Heroku.
 - **Web Frontend and Backend**
-    - User Login/Signup endpoints and features built out including the User Models. Front and Backend. Use JWT/Sessions strategies learned in Authentication here (unless agreed upon by the team and scrum master to move with an OAuth strategy).
-    - Front end is pulling in some data from backend.
-    - React app and Backend App talking to one another focus on CORS issues.
-    - Data Migrations and Seeds set up for mock data.
+    - User Login/Signup endpoints and features built out including the User Models (Jess). Front and Backend (Jess and Ed). Use JWT/Sessions strategies learned in Authentication here (unless agreed upon by the team and scrum master to move with an OAuth strategy) (Jess).
+    - Front end is pulling in some data from backend (Ed).
+    - React app and Backend App talking to one another focus on CORS issues. (Ed)
+    - Data Migrations and Seeds set up for mock data.(Jess)
 
 **Second Tuesday - Milestones**
 
