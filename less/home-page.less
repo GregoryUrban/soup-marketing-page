@@ -1,0 +1,76 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: black;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #25B7D3;
+    border-color: #25B7D3;
+}
+
+.jumbotron {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+
+    .content {
+        width: 50%;
+    }
+
+    h1 {
+        color: #25B7D3;
+        font-size-adjust: 80%;
+        width: 30%;
+
+        @media @phone {
+            font-size: 1.5rem;
+        }
+    }
+
+    p.lead {
+    width: 100%;    
+    }
+}
+
+img {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+
+}
+
+.potatoes-2 {
+    display: block;
+    width:40%;
+    margin-left: 20%
+    
+}
+
+.credits {
+    display: flex;
+    justify-content: flex-start;
+}
+
+// .row .col {
+//     font-weight: 400;
+// }
+
+.col {
+    text-align: center;
+}
+
+section {
+    width: 100%;
+}
+
+img .menu {
+    transform: rotate(90deg);
+    width: 80%;
+}
