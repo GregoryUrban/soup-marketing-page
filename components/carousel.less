@@ -1,17 +1,19 @@
 .carousel {
-  .width-100();
+  // .width-100();
   .flex(center, center);
+  width: 100%;
   height: 500px;
-  // position: relative;
+  position: relative;
   overflow: hidden;
-  margin-top: 16px;
-  @media(min-width: 1200px){
-    width: 1200px;
-  }
+  margin-top: 1%;
+  margin-bottom: 1%;
+  // @media(min-width: 1200px){
+  //   width: 1200px;
+  // }
   .left-button, .right-button {
     .flex(center);
-    color: @lambda-times-color-white;
-    background-color: @lambda-times-color-primary;
+    color: black;
+    background-color: #C87200;
     font-size: 40px;
     border-radius: 50%;
     position: absolute;
@@ -19,9 +21,9 @@
     height: 50px;
     cursor: pointer;
     &:hover {
-      color: @lambda-times-color-primary;
-      background-color: @lambda-times-color-white;
-      border: 2px solid @lambda-times-color-primary;
+      color: black;
+      background-color: white;
+      border: 4px solid black;
     }
   }
   .left-button {
@@ -39,3 +41,6 @@
     display: none;
   }
 }
+                                      img.car {
+                                        width: 100%;
+                                      }
