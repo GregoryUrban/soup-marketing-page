@@ -4,6 +4,7 @@ header {
   flex-direction: row;
   justify-content: flex-start;
   background-color: black;
+  position: fixed;
 }
 .nav {
   background-color: black;
@@ -80,7 +81,7 @@ img.souptop {
   font-size-adjust: 80%;
   width: 30%;
 }
-@media (max-width: 500px) {
+@media (max-width = 500px) {
   .jumbotron h1 {
     font-size: 1.5rem;
   }
@@ -91,7 +92,11 @@ img.souptop {
 section {
   width: 100%;
 }
-section .col {
+section .row {
+  display: flex;
+  justify-content: center;
+}
+section .row .col {
   text-align: center;
 }
 .potatoes-2 {
@@ -102,4 +107,9 @@ section .col {
 img.menu {
   width: 80%;
   border-radius: 20px;
+}
+.carousel {
+  display: flex;
+  max-width: 50%;
+  height: auto;
 }
