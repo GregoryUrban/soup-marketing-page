@@ -1,13 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 header {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: flex-start;
   background-color: black;
-  position: fixed;
+  position: sticky;
+  top: 0;
 }
 .nav {
   background-color: black;
+  border: black;
   justify-content: flex-end;
   width: 80%;
 }
@@ -54,6 +64,10 @@ footer {
 footer .credits {
   display: flex;
   justify-content: flex-start;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
 }
 img.souptop {
   width: 50%;
