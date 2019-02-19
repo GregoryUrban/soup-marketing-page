@@ -1,3 +1,8 @@
+**Public Site**
+https://serene-snyder-c92c58.netlify.com/
+This comes from https://app.netlify.com/sites/serene-snyder-c92c58/overview
+
+
 # soup-marketing-page
 Web User Interface Developer Role
 
