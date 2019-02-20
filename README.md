@@ -94,3 +94,7 @@ Use [this rubric](https://docs.google.com/spreadsheets/d/1BbdmSMUdzURMo0wcsr4XS
 
 - There will be a demo held on Saturday Morning for 1 hour (11am PST).
     - All 10 Projects will be demoed.
+
+
+    **To overlay pictures/ icons**
+    **<img src="bw_img" /><div><img src="color_img" /></div>**
