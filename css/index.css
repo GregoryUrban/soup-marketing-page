@@ -101,6 +101,10 @@ img.aboutUs {
   background-color: #25B7D3;
   border-color: #25B7D3;
 }
+.btn-primary a {
+  text-decoration: none;
+  color: white;
+}
 .jumbotron {
   display: flex;
   flex-wrap: wrap;

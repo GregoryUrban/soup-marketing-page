@@ -35,10 +35,11 @@
     <div class="container">
         <header>
 
-            <!-- Button trigger modal -->
+            <!-- Button trigger modal, refactored to button with href -->
             <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modelId">
-                SOUPER STOCKER
+                <a href="https://practical-bardeen-3a3b3e.netlify.com/" target="_blank"> TASTE THE SOUPER</a>
             </button>
+            <!-- Top Navigation -->
             <ul class="nav nav-tabs nav-stacked">
                 <li class="nav-item">
                     <a href="#" class="nav-link">About Us</a>
@@ -51,9 +52,8 @@
                 </li>
             </ul>
 
-            <!-- Navigation -->
+            <!-- Lower Navigation -->
             <ul class="main-nav">
-                <!-- <img src="design files\iconfinder_Food-Dome_379338.png" image class="logo" alt="logo"> -->
 
                 <li class="nav-item">
                     <a href="#Ed" class="nav-link">Front-End: Edward Reeseg</a>
@@ -79,44 +79,10 @@
 
         </header>
 
-        <!-- Login Button Modal -->
-        <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Use Souper Stocker </h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <!-- <div class="modal-body">
-                        <div class="container-fluid">
-                            <!-- <fieldset>Username</fieldset> -->
-                            <!-- <div class="form-group">
-                                <label for="">Username</label>
-                                <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
-                                    placeholder="">
-                                <small id="helpId" class="form-text text-muted">or email</small>
-                                <label for="">Password</label>
-                                <input type="password" class="form-control" name="" id="" aria-describedby="helpId"
-                                    placeholder="">
-                                <small id="helpId" class="form-text text-muted">forgot password?</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save</button>
-                    </div> -->
-                </div>
-            </div>
-        </div>
-
-
         <section>
 
 
-            <!-- Product Explaination - Top Area - Bootstrap Jumbotron  -->
+            <!-- Each About Us - Bootstrap Jumbotron  -->
 
             <div class="jumbotronAbout">
                 <img src="design files\about us\Ed Reeseg.jpg" class="aboutUs" alt="Manage inventory while eating soup!">
@@ -137,7 +103,7 @@
                 <div class="content">
                     <h1>Jess Harrison <br> Souper Back-End</h1>
                     <p class="lead">
-                        <a href="https://www.linkedin.com/in/jessica-harrison-2018/" target = "_blank">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/jessica-harrison-2018/" target="_blank">LinkedIn</a>
                         <a href="https://github.com/jessharrison83">Github</a>
                         <a href="#">Personal Page</a>
                         <!-- <a href="#">Favorite Site</a> -->
@@ -151,8 +117,8 @@
                 <div class="content">
                     <h1>Gregory Urban <br> Souper User Interface </h1>
                     <p class="lead">
-                        <a href="https://www.linkedin.com/in/glurban/" target = "_blank">LinkedIn</a>
-                        <a href="https://github.com/GregoryUrban" target = "_blank">Github</a>
+                        <a href="https://www.linkedin.com/in/glurban/" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/GregoryUrban" target="_blank">Github</a>
                         <a href="#">Personal Page</a>
                         <!-- <a href="#">Favorite Site</a> -->
                     </p>
@@ -161,34 +127,33 @@
                 <a name="Gannon"></a>
             </div>
 
-
             <div class="jumbotronAbout">
                 <img src="design files\dreamstime_xxl_83063174.jpg" class="aboutUs" alt="Manage inventory while eating soup!">
                 <div class="content">
                     <h1>Gannon LeBlanc <br> Project Manager <br> Scrum Master</h1>
                     <p class="lead">
-                            <a href="#">LinkedIn</a>
-                            <a href="https://github.com/GannonDetroit">Github</a>
-                            <a href="#">Personal Page</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="https://github.com/GannonDetroit">Github</a>
+                        <a href="#">Personal Page</a>
                     </p>
                 </div>
             </div>
 
         </section>
-
-
-        <!-- footer including image credits and "company name" -->
-        <footer>
-            <div class="credits">
-                <div>Icons made by <a href="https://smashicons.com/" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/"
-                        title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
-                        title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-
-            </div>
-            <p>2019 Soup Nuts & Bolts</p>
-        </footer>
-
     </div>
+
+    <!-- footer including image credits and "company name" -->
+    <footer>
+        <div class="credits">
+            <div>Icons made by <a href="https://smashicons.com/" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/"
+                    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
+                    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+
+        </div>
+        <p>2019 Soup Nuts & Bolts</p>
+    </footer>
+
+    <!-- </div> -->
 </body>
 
 </html>
