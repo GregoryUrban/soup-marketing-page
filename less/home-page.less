@@ -6,7 +6,23 @@
 
 img.souptop {
     width: 100%;
-    height: 400px;
+    height: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 2rem;
+
+}
+
+
+img.aboutUs {
+    width: 50%;
+    height: 500px;
+    @media @phone {
+        height: auto;
+    }
+    @media @tablet {
+        height: auto;
+    }
     border-radius: 20px;
     object-fit: cover;
     margin-bottom: 2rem;
@@ -23,12 +39,16 @@ img.souptop {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     width: 100%;
 
     .content {
         width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     h1 {
@@ -43,8 +63,14 @@ img.souptop {
     }
 
     p.lead {
-        width: 100%;
         text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    a {
+        color: #007bff;
     }
 }
 
