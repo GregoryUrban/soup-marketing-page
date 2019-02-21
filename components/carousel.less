@@ -1,4 +1,6 @@
 .carousel {
+
+  
   .width-100();
   .flex(center, center);
   width: 50%;
@@ -21,9 +23,9 @@
     .flex(center,center);
     font-size: 40px;
     border-radius: 50%;
-    position: absolute;
+    position: relative;
     width: 50px;
-    height: 50px;
+    height: auto;
     font-size: 2rem;
     font-weight: 200;
     cursor: pointer;
@@ -34,17 +36,17 @@
     }
   }
 
-  .left-button {
-    top: 50%;
-    left: 5%;
-    transform: translate(0, -50%);
-  }
+  // .left-button {
+    // top: 50%;
+    // left: 5%;
+    // transform: translate(0, -50%);
+  // }
 
-  .right-button {
-    top: 50%;
-    right: 5%;
-    transform: translate(0, -50%);
-  }
+  // .right-button {
+    // top: 50%;
+    // right: 5%;
+    // transform: translate(0, -50%);
+  // }
 
   img {
     // .width-100();
@@ -71,3 +73,16 @@ img.menu {
 //   left: 50%;
 //   transform: translate(-50%, -50%);
 // }
+
+.carousel .carouselCenter {
+  // flex-direction: column-reverse;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+  // .flex(center, center);
+}
+      h4{ 
+        color: #25B7D3;
+      }
