@@ -7,6 +7,16 @@ header {
   top: 0;
   z-index: 1;
 }
+@media (max-width: 990px) {
+  header {
+    position: relative;
+  }
+}
+@media (max-width: 600px) {
+  header {
+    position: relative;
+  }
+}
 .nav {
   background-color: black;
   border: black;
@@ -222,9 +232,6 @@ h4 {
 }
 .width-100 {
   width: 100%;
-}
-header {
-  position: sticky;
 }
 .jumbotronAbout {
   display: flex;
