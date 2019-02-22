@@ -10,11 +10,15 @@ class Carousel {
 
     this.left.addEventListener("click", () => this.toggleLeft());
     this.right.addEventListener("click", () => this.toggleRight());
-    
+    this.timer = setInterval(() => this.toggleRight(), 3500)
+
     }
 
     toggleLeft() { //  handlers.
         this.imgs[this.index].style.display = "none";
+        
+        clearInterval(this.timer)
+        this.timer = setInterval(() => this.toggleRight(), 2000)
 
         if (this.index === 0) {
             this.index = this.imgs.length -1;
@@ -26,6 +30,8 @@ class Carousel {
     
     toggleRight() {//  handlers.
         this.imgs[this.index].style.display = "none";
+        clearInterval(this.timer)
+        this.timer = setInterval(() => this.toggleRight(), 2000)
 
         if (this.index ===  this.imgs.length-1) {
             this.index = 0;
@@ -34,6 +40,17 @@ class Carousel {
         }
         this.imgs[this.index].style.display = "block";
     }
+
+    // autoToggle() {
+    //     this.imgs[this.index].style.display = "none";
+
+    //     if (this.index ===  this.imgs.length-1) {
+    //         this.index = 0;
+    //     } else {
+    //         this.index++
+    //     }
+    //     this.imgs[this.index].style.display = "block";
+    // }
 
 }
 
