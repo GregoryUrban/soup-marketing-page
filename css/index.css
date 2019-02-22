@@ -62,7 +62,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-radius: 2rem;
+  border-radius: 1px;
 }
 footer .credits {
   display: flex;
@@ -83,6 +83,7 @@ img.souptop {
   color: white;
   background-color: #25B7D3;
   border-color: #25B7D3;
+  margin: 10px;
 }
 .btn-primary a {
   text-decoration: none;
@@ -95,6 +96,7 @@ img.souptop {
   justify-content: center;
   align-items: center;
   width: 100%;
+  background: linear-gradient(transparent 1%, #e9ecef 36%, #e9ecef 78%, transparent 104%);
 }
 .jumbotron .content {
   width: 50%;
@@ -110,7 +112,7 @@ img.souptop {
   text-align: center;
   font-size: 1.5rem;
 }
-@media (max-width = 500px) {
+@media (max-width: 600px) {
   .jumbotron h1 {
     font-size: 1.5rem;
   }
@@ -217,7 +219,8 @@ header {
   height: auto;
   margin: 0 auto;
   margin-top: 1rem;
-  background: #E9ECEF;
+  padding: 1%;
+  background: linear-gradient(#E9ECEF 0%, #71CEEF 33%, #FFFFFF 66%, #EBEBFF 93%);
   border-style: ridge;
   border-radius: 2%;
 }
@@ -233,15 +236,15 @@ header {
   align-items: center;
 }
 .jumbotronAbout h1 {
-  color: #25B7D3;
+  color: #3481D3;
   font-size-adjust: 80%;
   width: 100%;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
-@media (max-width = 500px) {
+@media (max-width: 990px) {
   .jumbotronAbout h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 .jumbotronAbout p.lead {
@@ -254,21 +257,22 @@ header {
   color: #007bff;
   padding: 2%;
 }
-img.aboutUs {
+.jumbotronAbout img.aboutUs {
   width: 50%;
   height: auto;
-  padding: 4%;
+  padding: 1%;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 2rem;
+  background: linear-gradient(transparent 0%, #1E5699 33%, transparent 66%, #25B7D3 93%);
 }
-@media (max-width = 500px) {
-  img.aboutUs {
+@media (max-width: 600px) {
+  .jumbotronAbout img.aboutUs {
     height: auto;
   }
 }
-@media (max-width = 880px) {
-  img.aboutUs {
+@media (max-width: 990px) {
+  .jumbotronAbout img.aboutUs {
     height: auto;
   }
 }
@@ -276,4 +280,15 @@ section {
   width: 100%;
   display: flex;
   flex-direction: column;
+  background: linear-gradient(transparent 1%, #2092CA 28%, #207cca 50%, transparent 95%);
+}
+@media (max-width: 990px) {
+  .jumbotronAbout h1 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .jumbotronAbout h1 {
+    font-size: 1rem;
+  }
 }

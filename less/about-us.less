@@ -12,7 +12,16 @@ header {
     height: auto;
     margin: 0 auto;
     margin-top: 1rem;
-    background: #E9ECEF;
+    padding: 1%;
+
+    // background: #E9ECEF;
+    // background: linear-gradient(#E9ECEF 0%, #E9ECEF 33%, #E9ECEF 66%, #E9ECEF 93%);
+    background: linear-gradient(#E9ECEF 0%, #71CEEF 33%, #FFFFFF 66%, #EBEBFF 93%);
+    // background: repeating-linear-gradient();
+    // background: linear-gradient(#1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+    // background: linear-gradient(#1e5799 0%, #2989d8 33%, #207cca 66%, #7db9e8 93%);
+    // background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+    // background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
     border-style: ridge;
     border-radius: 2%;
 
@@ -31,14 +40,17 @@ header {
     }
 
     h1 {
-        color: #25B7D3;
+        // color: #25B7D3;
+        color: #3481D3;
         font-size-adjust: 80%;
         width: 100%;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 2.5rem;
 
-        @media @phone {
-            font-size: 1.5rem;
+       
+
+        @media @tablet {
+            font-size: 2.0rem;
         }
     }
 
@@ -54,28 +66,30 @@ header {
         padding: 2%;
     }
 
-
+    img.aboutUs {
+        width: 50%;
+        height: auto;
+        padding: 1%;
+    
+        @media @phone {
+            height: auto;
+        }
+    
+        @media @tablet {
+            height: auto;
+        }
+    
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 2rem;
+        background: linear-gradient(transparent 0%, #1E5699 33%, transparent 66%, #25B7D3 93%);
+        // background: linear-gradient(transparent 0%, #6D6D00 33%, transparent 66%, #25B7D3 93%);
+    
+    }
 
 }
 
-img.aboutUs {
-    width: 50%;
-    height: auto;
-    padding: 4%;
 
-    @media @phone {
-        height: auto;
-    }
-
-    @media @tablet {
-        height: auto;
-    }
-
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 2rem;
-
-}
 
 
 
@@ -83,6 +97,14 @@ section {
     width: 100%;
     display: flex;
     flex-direction: column;
+    // background: linear-gradient(#1e5799 0%, #2989d8 33%, #207cca 66%, #7db9e8 93%);
+    // background: linear-gradient(#207198 0%, #29B2D8 33%, #207cca 66%, #7db9e8 93%);
+    // background: linear-gradient(#b3dced 0%,#29b8e5 50%,#bce0ee 100%);
+    // background: linear-gradient(#299FD8 0%, #1E5699 33%, #207cca 66%, #25B7D3 93%);
+    // background: linear-gradient(to bottom, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 28%, rgba(33,180,226,1) 67%, rgba(183,222,237,1) 95%, rgba(183,222,237,1) 100%);
+    // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed', GradientType=0 );
+    // background: linear-gradient(#299FD8 10%, #1E5699 35%, #207cca 50%, #25D7D3 85%);
+    background: linear-gradient(transparent 1%, #2092CA 28%, #207cca 50%, transparent 95%);
 }
 
 
@@ -107,3 +129,29 @@ section {
 
 // todo
 // fix Jess at max media 
+
+@media @tablet {
+    .jumbotronAbout h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media @phone {
+    .jumbotronAbout h1 {
+        font-size: 1.0rem;
+    }
+}
+
+
+
+// @media screen and (max-width: 992px) {
+//     .jumbotronAbout h1 {
+//         font-size: 0.5rem;
+//     }
+//   }
+
+//   @media screen and (max-width: 600px) {
+//     .jumbotronAbout h1 {
+//         font-size: 1.5rem;
+//     }
+//   }

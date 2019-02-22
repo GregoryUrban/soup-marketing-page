@@ -1,3 +1,19 @@
+**How To**
+1. What is your app.
+2. What problem is it trying to solve or motivation for creating the app.
+3. How would someone install the app.
+4. How would someone run the app
+5. General Contributors (not really needed)
+6. How can someone report a bug or commit a pull request.
+7. What is the link for the live deployment of your app?
+8. Where can someone find the templates for pull requests and bug reports.
+
+Explore your github insite tab, it has a lot of great templates for you to use on your projects. (edited)
+
+
+
+
+
 **Public Site**
 https://serene-snyder-c92c58.netlify.com/
 This comes from https://app.netlify.com/sites/serene-snyder-c92c58/overview
