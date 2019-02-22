@@ -1,28 +1,40 @@
 **How To**
-1. What is your app.
-2. What problem is it trying to solve or motivation for creating the app.
-3. How would someone install the app.
-4. How would someone run the app
-5. General Contributors (not really needed)
-6. How can someone report a bug or commit a pull request.
-7. What is the link for the live deployment of your app?
-8. Where can someone find the templates for pull requests and bug reports.
+1. **Purpose**
+    This code is specifically a marketing page for our app, Souper Stocker, with an about us page crediting the developers and PM. 
 
-Explore your github insite tab, it has a lot of great templates for you to use on your projects. (edited)
+2. **What problem is it trying to solve or motivation for creating the app.** 
+    This is a project assigned by Lambda School: It is meant to be a  marketing page for our Souper Stocker app, with an about us page for all the developers and PM. 
+
+3. **How would someone install the app.** 
+    The marketing page can be cloned here: https://github.com/soup-build-week-pt-project/soup-marketing-page/tree/gregory-urban
+
+4. **How would someone run the app.** 
+    Go to https://serene-snyder-c92c58.netlify.com, click "Souper User", and either log in or register as a new user. 
+
+5. **General Contributors (not really needed).** 
+    Nothing
+
+6. **How can someone report a bug or commit a pull request.** 
+    
+    **For pull requests on the marketing or about us pages** 
+    https://github.com/soup-build-week-pt-project/soup-marketing-page/pulls. 
+    
+    **To submit a bug on the marketing or about us pages, click New Issue here** 
+    https://github.com/soup-build-week-pt-project/soup-marketing-page/issues 
+
+7. **What is the link for the live deployment of your app?** 
+    Marketing page: https://serene-snyder-c92c58.netlify.com
+    App page: https://practical-bardeen-3a3b3e.netlify.com/
+
+8. **Where can someone find the templates for pull requests and bug reports.**
+    ??
 
 
-
-
-
-**Public Site**
-https://serene-snyder-c92c58.netlify.com/
-This comes from https://app.netlify.com/sites/serene-snyder-c92c58/overview
-
-
-# soup-marketing-page
-Web User Interface Developer Role
+# ** Instructions for UI developer **
 
 ## **Role Description**
+
+Web User Interface Developer Role
 
 You have learned all about the foundations of the Web over the past eight weeks. Now you will build a static landing page that links to a your group's application.
 
@@ -110,7 +122,3 @@ Use [this rubric](https://docs.google.com/spreadsheets/d/1BbdmSMUdzURMo0wcsr4XS
 
 - There will be a demo held on Saturday Morning for 1 hour (11am PST).
     - All 10 Projects will be demoed.
-
-
-    **To overlay pictures/ icons**
-    **<img src="bw_img" /><div><img src="color_img" /></div>**
