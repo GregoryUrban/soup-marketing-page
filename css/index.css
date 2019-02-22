@@ -79,23 +79,6 @@ img.souptop {
   object-fit: cover;
   margin-bottom: 2rem;
 }
-img.aboutUs {
-  width: 50%;
-  height: auto;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 2rem;
-}
-@media (max-width = 500px) {
-  img.aboutUs {
-    height: auto;
-  }
-}
-@media (max-width = 880px) {
-  img.aboutUs {
-    height: auto;
-  }
-}
 .btn-primary {
   color: white;
   background-color: #25B7D3;
@@ -224,23 +207,6 @@ h4 {
 header {
   position: sticky;
 }
-img.aboutUs {
-  width: 50%;
-  height: auto;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 2rem;
-}
-@media (max-width = 500px) {
-  img.aboutUs {
-    height: auto;
-  }
-}
-@media (max-width = 880px) {
-  img.aboutUs {
-    height: auto;
-  }
-}
 .jumbotronAbout {
   display: flex;
   flex-wrap: wrap;
@@ -252,9 +218,15 @@ img.aboutUs {
   margin: 0 auto;
   margin-top: 1rem;
   background: #E9ECEF;
+  border-style: ridge;
+  border-radius: 2%;
+}
+.jumbotronAbout img.logos {
+  max-width: 40%;
+  padding: 3%;
 }
 .jumbotronAbout .content {
-  width: 50%;
+  width: 75%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -276,17 +248,32 @@ img.aboutUs {
   text-align: center;
   display: flex;
   justify-content: space-evenly;
-  flex-direction: column;
+  flex-direction: row;
 }
 .jumbotronAbout a {
   color: #007bff;
+  padding: 2%;
+}
+img.aboutUs {
+  width: 50%;
+  height: auto;
+  padding: 4%;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+@media (max-width = 500px) {
+  img.aboutUs {
+    height: auto;
+  }
+}
+@media (max-width = 880px) {
+  img.aboutUs {
+    height: auto;
+  }
 }
 section {
   width: 100%;
   display: flex;
   flex-direction: column;
-}
-img.menu {
-  width: 80%;
-  border-radius: 20px;
 }
