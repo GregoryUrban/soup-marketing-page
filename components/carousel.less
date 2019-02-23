@@ -1,6 +1,6 @@
 .carousel {
 
-  
+
   .width-100();
   .flex(center, center);
   width: 50%;
@@ -16,9 +16,10 @@
     font-size: 1.25rem;
     font-weight: 1;
   }
+
   .left-button,
   .right-button {
-    .flex(center,center);
+    .flex(center, center);
     font-size: 40px;
     border-radius: 50%;
     position: relative;
@@ -27,61 +28,56 @@
     font-size: 2rem;
     color: gray;
     font-weight: 600;
+
+    @media @phone {
+      color: transparent;
+    }
+
+    @media @tablet {
+      color: transparent;
+    }
+
     cursor: pointer;
+
     &:hover {
       color: white;
       background-color: white;
       border: 2px solid black;
+
+      @media @phone {
+        display: block;
+      }
+
+      @media @tablet {
+        display: block;
+      }
     }
   }
 
-  // .left-button {
-    // top: 50%;
-    // left: 5%;
-    // transform: translate(0, -50%);
-  // }
 
-  // .right-button {
-    // top: 50%;
-    // right: 5%;
-    // transform: translate(0, -50%);
-  // }
 
   img {
-    // .width-100();
     display: none;
   }
-} // end of .carousel
+}
 
-// .carousels {
-//   position: relative;
-// }
-
+// end of .carousel
 
 img.car {
   width: 50%;
 }
+
 img.menu {
   width: 50%;
 }
 
-
-// .centered {
-//   position: absolute;
-//   top: 50%;
-//   left: 50%;
-//   transform: translate(-50%, -50%);
-// }
-
 .carousel .carouselCenter {
-  // flex-direction: column-reverse;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  
-  // .flex(center, center);
 }
-      h4{ 
-        color: #25B7D3;
-      }
+
+h4 {
+  color: #25B7D3;
+}

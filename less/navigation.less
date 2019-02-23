@@ -12,12 +12,10 @@ header {
     @media @tablet {
         position: relative;
     }
-    
+
     @media @phone {
         position: relative;
     }
-
-
 }
 
 // Navigation 
@@ -37,11 +35,12 @@ a {
 
 li.nav-item {
     display: flex;
-    .flex(center,center);
+    .flex(center, center);
+
     img {
-    width: 60px;
-    height: auto;
-    flex-direction: row-reverse;
+        width: 60px;
+        height: auto;
+        flex-direction: row-reverse;
     }
 }
 
@@ -59,20 +58,19 @@ li.nav-item {
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    // justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
     padding: 1rem 0 1rem 0;
-    
-    
+
+
     @media @tablet {
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
         text-align: center;
     }
-    
+
     @media @phone {
         justify-content: space-around;
         align-items: stretch;
@@ -90,11 +88,5 @@ li.nav-item {
     .logo {
         width: 4rem;
         height: 100%;
-        // margin-right: 20%;
     }
 }
-
-
-  
-
-

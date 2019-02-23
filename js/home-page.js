@@ -1,3 +1,4 @@
+// NOT IN USE, keeping in case ever wanted to use
 // Login function to store field data entered to pass to backend, and to reset after press save
 // function collectLoginInfo() {
 //     const userInfo = {};

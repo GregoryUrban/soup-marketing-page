@@ -125,12 +125,32 @@ img.souptop {
   width: 100%;
   background: linear-gradient(transparent 1%, #e9ecef 36%, #e9ecef 78%, transparent 104%);
 }
+@media (max-width: 600px) {
+  .jumbotron {
+    flex-direction: column;
+  }
+}
+@media (max-width: 990px) {
+  .jumbotron {
+    flex-direction: column;
+  }
+}
 .jumbotron .content {
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 600px) {
+  .jumbotron .content {
+    width: 100%;
+  }
+}
+@media (max-width: 990px) {
+  .jumbotron .content {
+    width: 100%;
+  }
 }
 .jumbotron h1 {
   color: #25B7D3;
@@ -207,11 +227,35 @@ img.menu {
   font-weight: 600;
   cursor: pointer;
 }
+@media (max-width: 600px) {
+  .carousel .left-button,
+  .carousel .right-button {
+    color: transparent;
+  }
+}
+@media (max-width: 990px) {
+  .carousel .left-button,
+  .carousel .right-button {
+    color: transparent;
+  }
+}
 .carousel .left-button:hover,
 .carousel .right-button:hover {
   color: white;
   background-color: white;
   border: 2px solid black;
+}
+@media (max-width: 600px) {
+  .carousel .left-button:hover,
+  .carousel .right-button:hover {
+    display: block;
+  }
+}
+@media (max-width: 990px) {
+  .carousel .left-button:hover,
+  .carousel .right-button:hover {
+    display: block;
+  }
 }
 .carousel img {
   display: none;
