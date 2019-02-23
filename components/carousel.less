@@ -1,5 +1,11 @@
 .carousel {
 
+  .carouselCenter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 
   .width-100();
   .flex(center, center);
@@ -15,8 +21,11 @@
     text-align: center;
     font-size: 1.25rem;
     font-weight: 1;
+    color: #25B7D3;
+
     @media @phone and @tablet {
       -webkit-text-stroke: 0.01rem black;
+    }
   }
 
   .left-button,
@@ -31,7 +40,10 @@
     color: gray;
     font-weight: 600;
 
-    @media @phone and @tablet {
+    @media @phone {
+      color: transparent;
+    }
+    @media  @tablet {
       color: transparent;
     }
 
@@ -57,28 +69,25 @@
   img {
     display: none;
   }
-}
 
-// end of .carousel
+
+} // end of .carousel
 
 img.car {
   width: 50%;
+
   @media @phone {
     .width-100();
   }
 }
 
-img.menu {
-  width: 50%;
-}
+// img.menu {
+//   width: 50%;
+// }
 
-.carousel .carouselCenter {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-h4 {
-  color: #25B7D3;
-}
+// .carousel .carouselCenter {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: center;
+//   align-items: center;
+// }
