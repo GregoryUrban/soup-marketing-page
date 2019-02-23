@@ -15,6 +15,8 @@
     text-align: center;
     font-size: 1.25rem;
     font-weight: 1;
+    @media @phone and @tablet {
+      -webkit-text-stroke: 0.01rem black;
   }
 
   .left-button,
@@ -29,11 +31,7 @@
     color: gray;
     font-weight: 600;
 
-    @media @phone {
-      color: transparent;
-    }
-
-    @media @tablet {
+    @media @phone and @tablet {
       color: transparent;
     }
 

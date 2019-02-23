@@ -59,17 +59,11 @@
         margin-bottom: 2rem;
         background: linear-gradient(transparent 0%, #1E5699 33%, transparent 66%, #25B7D3 93%);
 
-        @media @phone {
+        @media @phone and @tablet {
             height: auto;
         }
-
-        @media @tablet {
-            height: auto;
-        }
-
-    }
-
-}
+    }   
+} // end of jumbotronAbout
 
 section {
     width: 100%;
@@ -86,14 +80,8 @@ section {
 }
 
 
-@media @tablet {
-    .jumbotronAbout h1 {
-        font-size: 1.5rem;
-    }
-}
-
 @media @phone {
     .jumbotronAbout h1 {
-        font-size: 1.0rem;
+        font-size: 1.5rem;
     }
 }

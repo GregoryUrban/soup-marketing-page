@@ -211,6 +211,16 @@ img.menu {
   font-size: 1.25rem;
   font-weight: 1;
 }
+@media (max-width: 600px) {
+  .carousel h4 {
+    -webkit-text-stroke: 0.01rem black;
+  }
+}
+@media (max-width: 990px) {
+  .carousel h4 {
+    -webkit-text-stroke: 0.01rem black;
+  }
+}
 .carousel .left-button,
 .carousel .right-button {
   display: flex;

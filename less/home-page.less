@@ -28,11 +28,7 @@ img.souptop {
     flex-wrap: wrap;
     flex-direction: row-reverse;
 
-    @media @phone {
-        flex-direction: column;
-    }
-
-    @media @tablet {
+    @media @phone and @tablet {
         flex-direction: column;
     }
 
@@ -44,11 +40,7 @@ img.souptop {
     .content {
         width: 50%;
 
-        @media @phone {
-            width: 100%;
-        }
-
-        @media @tablet {
+        @media @phone and @tablet {
             width: 100%;
         }
 
@@ -81,6 +73,8 @@ img.souptop {
         color: #007bff;
     }
 }
+
+// end of Jumbotron
 
 section {
     width: 100%;

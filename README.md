@@ -30,7 +30,7 @@
     ??
 
 
-# ** Instructions for UI developer **
+# ** Instructions given to UI Developer **
 
 ## **Role Description**
 
