@@ -1,7 +1,40 @@
-# soup-marketing-page
-Web User Interface Developer Role
+**How To**
+1. **Purpose**
+    This code is specifically a marketing page for our app, Souper Stocker, with an about us page crediting the developers and PM. 
+
+2. **What problem is it trying to solve or motivation for creating the app.** 
+    This is a project assigned by Lambda School: It is meant to be a  marketing page for our Souper Stocker app, with an about us page for all the developers and PM. 
+
+3. **How would someone install the app.** 
+    The marketing page can be cloned here: https://github.com/soup-build-week-pt-project/soup-marketing-page/tree/gregory-urban
+
+4. **How would someone run the app.** 
+    Go to https://serene-snyder-c92c58.netlify.com, click "Souper User", and either log in or register as a new user. 
+
+5. **General Contributors (not really needed).** 
+    Nothing
+
+6. **How can someone report a bug or commit a pull request.** 
+    
+    **For pull requests on the marketing or about us pages** 
+    https://github.com/soup-build-week-pt-project/soup-marketing-page/pulls. 
+    
+    **To submit a bug on the marketing or about us pages, click New Issue here** 
+    https://github.com/soup-build-week-pt-project/soup-marketing-page/issues 
+
+7. **What is the link for the live deployment of your app?** 
+    Marketing page: https://serene-snyder-c92c58.netlify.com
+    App page: https://practical-bardeen-3a3b3e.netlify.com/
+
+8. **Where can someone find the templates for pull requests and bug reports.**
+    ??
+
+
+# ** Instructions given to UI Developer **
 
 ## **Role Description**
+
+Web User Interface Developer Role
 
 You have learned all about the foundations of the Web over the past eight weeks. Now you will build a static landing page that links to a your group's application.
 
@@ -52,10 +85,10 @@ Use [this rubric](https://docs.google.com/spreadsheets/d/1BbdmSMUdzURMo0wcsr4XS
 
 - **All Team members -** All Projects deployed to Netlify or Heroku.
 - **Web Frontend and Backend**
-    - User Login/Signup endpoints and features built out including the User Models. Front and Backend. Use JWT/Sessions strategies learned in Authentication here (unless agreed upon by the team and scrum master to move with an OAuth strategy).
-    - Front end is pulling in some data from backend.
-    - React app and Backend App talking to one another focus on CORS issues.
-    - Data Migrations and Seeds set up for mock data.
+    - User Login/Signup endpoints and features built out including the User Models (Jess). Front and Backend (Jess and Ed). Use JWT/Sessions strategies learned in Authentication here (unless agreed upon by the team and scrum master to move with an OAuth strategy) (Jess).
+    - Front end is pulling in some data from backend (Ed).
+    - React app and Backend App talking to one another focus on CORS issues. (Ed)
+    - Data Migrations and Seeds set up for mock data.(Jess)
 
 **Second Tuesday - Milestones**
 

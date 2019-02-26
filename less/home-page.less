@@ -1,33 +1,61 @@
-header {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-end;
-    background-color: black;
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+img.souptop {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 2rem;
 }
 
 .btn-primary {
     color: white;
     background-color: #25B7D3;
     border-color: #25B7D3;
+    margin: 10px;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
 }
 
 .jumbotron {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
-    justify-content: flex-end;
+
+    @media @phone and @tablet {
+        flex-direction: column;
+    }
+
+    justify-content: center;
     align-items: center;
     width: 100%;
+    background: linear-gradient(transparent 1%, #e9ecef 36%, #e9ecef 78%, transparent 104%);
 
     .content {
         width: 50%;
+
+        @media @phone and @tablet {
+            width: 100%;
+        }
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     h1 {
         color: #25B7D3;
         font-size-adjust: 80%;
-        width: 30%;
+        width: 100%;
+        text-align: center;
+        font-size: 1.5rem;
 
         @media @phone {
             font-size: 1.5rem;
@@ -35,42 +63,41 @@ header {
     }
 
     p.lead {
-    width: 100%;    
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    a {
+        color: #007bff;
     }
 }
 
-img {
-    width: 50%;
-    height: auto;
-    border-radius: 20px;
-
-}
-
-.potatoes-2 {
-    display: block;
-    width:40%;
-    margin-left: 20%
-    
-}
-
-.credits {
-    display: flex;
-    justify-content: flex-start;
-}
-
-// .row .col {
-//     font-weight: 400;
-// }
-
-.col {
-    text-align: center;
-}
+// end of Jumbotron
 
 section {
     width: 100%;
+
+    .row {
+        display: flex;
+        justify-content: center;
+
+        .col {
+            text-align: center;
+
+        }
+    }
 }
 
-img .menu {
-    transform: rotate(90deg);
+
+.potatoes-2 {
+    display: block;
+    width: 50%;
+    margin-left: 20%
+}
+
+img.menu {
     width: 80%;
+    border-radius: 20px;
 }

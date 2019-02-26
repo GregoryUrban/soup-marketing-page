@@ -1,0 +1,87 @@
+.jumbotronAbout {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 1%;
+    background: linear-gradient(#E9ECEF 0%, #71CEEF 33%, #FFFFFF 66%, #EBEBFF 93%);
+    border-style: ridge;
+    border-radius: 2%;
+
+    img.logos {
+        max-width: 40%;
+        padding: 3%;
+    }
+
+    .content {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        color: #3481D3;
+        font-size-adjust: 80%;
+        width: 100%;
+        text-align: center;
+        font-size: 2.5rem;
+
+        @media @tablet {
+            font-size: 2.0rem;
+        }
+    }
+
+    p.lead {
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    a {
+        color: #007bff;
+        padding: 2%;
+    }
+
+    img.aboutUs {
+        width: 50%;
+        height: auto;
+        padding: 1%;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 2rem;
+        background: linear-gradient(transparent 0%, #1E5699 33%, transparent 66%, #25B7D3 93%);
+
+        @media @phone and @tablet {
+            height: auto;
+        }
+    }   
+} // end of jumbotronAbout
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    // background: linear-gradient(#1e5799 0%, #2989d8 33%, #207cca 66%, #7db9e8 93%);
+    // background: linear-gradient(#207198 0%, #29B2D8 33%, #207cca 66%, #7db9e8 93%);
+    // background: linear-gradient(#b3dced 0%,#29b8e5 50%,#bce0ee 100%);
+    // background: linear-gradient(#299FD8 0%, #1E5699 33%, #207cca 66%, #25B7D3 93%);
+    // background: linear-gradient(to bottom, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 28%, rgba(33,180,226,1) 67%, rgba(183,222,237,1) 95%, rgba(183,222,237,1) 100%);
+    // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed', GradientType=0 );
+    // background: linear-gradient(#299FD8 10%, #1E5699 35%, #207cca 50%, #25D7D3 85%);
+    background: linear-gradient(transparent 1%, #2092CA 28%, #207cca 50%, transparent 95%);
+}
+
+
+@media @phone {
+    .jumbotronAbout h1 {
+        font-size: 1.5rem;
+    }
+}
